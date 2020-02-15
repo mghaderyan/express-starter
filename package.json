@@ -12,12 +12,14 @@
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "lodash": "^4.17.15",
     "morgan": "~1.9.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "mocha": "^7.0.1",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "sinon": "^8.1.1"
   }
 }
