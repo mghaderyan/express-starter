@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha test"
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -18,8 +18,6 @@
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
-    "mocha": "^7.0.1",
-    "should": "^13.2.3",
-    "sinon": "^8.1.1"
+    "jest": "^25.1.0"
   }
 }
